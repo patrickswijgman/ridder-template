@@ -16,7 +16,12 @@ npm start
 
 ## Adding assets to the game
 
-Place your textures, sounds, fonts and any other assets for your game in the `public` folder.
+Place your textures, sounds, fonts and any other assets for your game in the `public` folder. Refer to them without the `public` prefix in your code.
+
+```javascript
+// load 'public/textures/player.png' like so:
+const texture = loadTexture("textures/player.png");
+```
 
 ## Build for a website
 
