@@ -1,4 +1,6 @@
-# Game
+# Ridder template
+
+A game created with the [ridder](https://github.com/patrickswijgman/ridder) engine.
 
 ## Getting started
 
