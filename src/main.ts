@@ -1,13 +1,18 @@
 import { run } from "ridder";
 
 run({
-  settings: {},
+  width: 800,
+  height: 600,
 
   setup: async () => {
     // Load data here like textures, sounds, fonts and sprites.
   },
 
   update: () => {
-    // Update the game's logic here and render the textures, sprites and shapes you've loaded.
+    // Update the game's logic here.
+  },
+
+  render: () => {
+    // Render the game's textures, sprites and shapes here.
   },
 });
